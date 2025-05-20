@@ -301,7 +301,3 @@ Last 3-day SMA value: 18.00
 - **Data Cleaning**: Use `df.dropna()` for missing values, or `df.fillna(df.mean())` for imputation. Detect outliers with `z = (x - μ)/σ` or IQR.
 - **Visualization**: Use `seaborn` for advanced plots (e.g., `sns.pairplot` for variable relationships, `sns.heatmap` for correlations).
 - **Reproducibility**: Set `np.random.seed(42)` and document code with comments.
-
-## 7. Further Reading
-- Books: "Introduction to Statistical Learning" (James et al.), "Practical Statistics for Data Scientists" (Bruce & Bruce).
-- Libraries: Explore `scikit-learn` for machine learning, `statsmodels` for advanced modeling, `plotly` for interactive visualizations.
